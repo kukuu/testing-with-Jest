@@ -1,10 +1,11 @@
 import { add } from './App';
 
-console.log(addd(1, 2));
+console.log(add(1, 2));
 
-/*test('Fake Test', () => {
-	expect(true).toBeTruthy();
+test('add', () => {
+	const value = add(1,2);
+	expect(value).toBe(3);
 });
-*/
+
 
 
