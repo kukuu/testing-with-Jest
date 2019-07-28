@@ -11,4 +11,5 @@ npm test
 ## Test Coverages
 1. Unit Tests
 2. Integration Test
-3. REACT Component Testing
+3. Jest Mock functions
+4. REACT Component Testing
