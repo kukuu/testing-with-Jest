@@ -1,12 +1,17 @@
 
 import { total } from './AppInt';
 
+
+//Working with mock functions
+//Used in mitigating call backs
+//Example managing asynchronous or say database calls that needs managing
 const add = jest.fn(()=> 3)
 
-//Unit Test
+
 test('add', () => {
-	const value = add(1,2);
-	expect(value).toBe(3);
+	expect(add(1, 2)).toBe(3);
+	expect(add).toHaveBeenCalledTimes(1);
+	expect(add).toHaveBeenCalledWith(1, 2);
 });
 
 
