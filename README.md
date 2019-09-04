@@ -71,3 +71,7 @@ BrowserStack is a cloud web and mobile testing platform that enables developers 
 ## Sauce Labs
 
 It is the leading cloud based web and mobile app testing platform. It allows you to run tests in the cloud on more than 260 different browser platform and devices. There is no VM set up or maintenance required. With access to live breakpoints, you can easily take control of the system to investigate a problem manually.
+
+## Mocha
+
+Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.
